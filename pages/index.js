@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { getPosts } from '../utils/mdx-utils';
+import Image from "next/image";
 
 import Footer from '../components/Footer';
 import Header from '../components/Header';
@@ -17,6 +18,18 @@ export default function Index({ posts, globalData }) {
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
         Under Construction
         </h1>
+
+        <Image
+        src="/images/giphy.gif"
+        height={400}
+        width={400}
+        alt="mi imagen de perfil"
+      ></Image>
+
+
+
+
+
         <ul className="w-full">
           {posts.map((post) => (
             <li
