@@ -19,12 +19,7 @@ export default function Index({ posts, globalData }) {
         Under Construction
         </h1>
 
-        <Image
-        src="/images/descarga.jpg"
-        height={400}
-        width={400}
-        alt="mi imagen de perfil"
-      ></Image>
+  
 
 
 
