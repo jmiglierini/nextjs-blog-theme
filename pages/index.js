@@ -20,7 +20,7 @@ export default function Index({ posts, globalData }) {
         </h1>
 
         <Image
-        src="/images/giphy.gif"
+        src="/images/descarga.jpg"
         height={400}
         width={400}
         alt="mi imagen de perfil"
