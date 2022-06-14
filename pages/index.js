@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { getPosts } from '../utils/mdx-utils';
 import Image from "next/image";
-import ContainerBlock from "../components/ContainerBlock";
+
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Layout, { GradientBackground } from '../components/Layout';
@@ -21,12 +21,7 @@ export default function Index({ posts, globalData }) {
        
         </h1>
 
-        <ContainerBlock
-      title="Manu Arora - Developer, Writer, Creator"
-      description="Building a template with Next.js and Tailwindcss - for FreeCodeCamp users."
-    >
-      
-    </ContainerBlock>
+        
 
 
 
