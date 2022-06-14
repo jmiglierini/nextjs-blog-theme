@@ -1,7 +1,9 @@
+
+
 import Link from 'next/link';
 import { getPosts } from '../utils/mdx-utils';
 import Image from "next/image";
-
+import ContainerBlock from "../components/ContainerBlock";
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Layout, { GradientBackground } from '../components/Layout';
@@ -13,13 +15,20 @@ export default function Index({ posts, globalData }) {
   return (
     <Layout>
       <SEO title={globalData.name} description={globalData.blogTitle} />
-      <Header name="Joaquin Miglierini Web Page :)"/>
+      <Header name="Joaquin Miglierini Web Pageaaaaassssaaaaaaaaaaaaaaaaaaaaaaaa :)"/>
       <main className="w-full">
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
-        Under Construction
+       
         </h1>
 
-  
+        <ContainerBlock
+      title="Manu Arora - Developer, Writer, Creator"
+      description="Building a template with Next.js and Tailwindcss - for FreeCodeCamp users."
+    >
+      <Hero />
+      <FavouriteProjects />
+      <LatestCode />
+    </ContainerBlock>
 
 
 
