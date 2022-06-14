@@ -25,9 +25,7 @@ export default function Index({ posts, globalData }) {
       title="Manu Arora - Developer, Writer, Creator"
       description="Building a template with Next.js and Tailwindcss - for FreeCodeCamp users."
     >
-      <Hero />
-      <FavouriteProjects />
-      <LatestCode />
+      
     </ContainerBlock>
 
 
