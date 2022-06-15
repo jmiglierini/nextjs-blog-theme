@@ -18,7 +18,7 @@ export default function Index({ posts, globalData }) {
       <Header name="Joaquin Miglierini Web"/>
       <main className="w-full">
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
-        under construction
+        UNDER CONSTRUCTION 
         </h1>
 
         
